@@ -1,32 +1,45 @@
 .task1 {
+  background-color: green;
 }
 
 .task2 {
+  background: url(/img/img-400x200.jpg);
 }
 
 .task3 {
+  background: linear-gradient(to bottom, yellow, red)
 }
 
 .task4 {
+  background: radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c);
 }
 
 .task5 {
+  background: conic-gradient(from 3.1416rad at 10% 50%, #e66465, #9198e5);
 }
 
 .task6 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: repeat-x;
 }
 
 .task7 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: repeat-y;
 }
 
 .task8 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: no-repeat;
 }
 
 .task9 {
   background-image: url('/img/img-400x200.jpg');
+  
+  background-repeat: repeat-y;
+  background-size: contain;
+  width: 400px;
+  height: 89%;
 }
 
 .task10 {
