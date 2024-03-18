@@ -43,63 +43,81 @@
 }
 
 .task10 {
-  background-image: url('/img/img-400x200.jpg');
+  background-image: url(/img/img-400x200.jpg), linear-gradient(to bottom, transparent 0, transparent 10px, rgba(0, 0, 0, 0.1) 10px, rgba(0, 0, 0, 0.1) 20px);
+  background-size: 50% 50%;
+  height: 100%;
 }
 
 .task11 {
   background-image: url('/img/img-400x200.jpg');
+  background-size: 53% 44%;
+  background-attachment: scroll;
 }
 
 .task12 {
   background-image: url('/img/img-400x200.jpg');
+  background-size:  39% 21%;
+  background-attachment: fixed;
 }
 
 .task13 {
   background-image: url('/img/img-400x200.jpg');
+  background-attachment: local;
 }
 
 .task14 {
   background-image: url('/img/img-400x200.jpg');
+  background-position: center;
 }
 
 .task15 {
   background-image: url('/img/img-400x200.jpg');
+  background-position: top;
 }
 
 .task16 {
   background-image: url('/img/img-400x200.jpg');
+  background-position: bottom;
 }
 
 .task17 {
   background-image: url('/img/img-400x200.jpg');
+  background-position: left;
 }
 
 .task18 {
   background-image: url('/img/img-400x200.jpg');
+  background-position: right;
 }
 
 .task19 {
   background-image: url('/img/img-400x200.jpg');
+  background-position: 100px;
 }
 
 .task20 {
   background-image: url('/img/img-400x200.jpg');
+  background-size: auto;
 }
 
 .task21 {
   background-image: url('/img/img-400x200.jpg');
+  background-size: 600px;
 }
 
 .task22 {
   background-image: url('/img/img-400x200.jpg');
+  background-size: 50%;
 }
 
 .task23 {
   background-image: url('/img/img-400x200.jpg');
+  background-size: 100%;
 }
 
 .task24 {
   background-image: url('/img/img-400x200.jpg');
+  background-size: 100% 100%;
 }
 
 .task25 {
